@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/mainCarouselView"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginTop="-30dp"
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:slideInterval="2500"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp"
+        app:radius="4dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mainCarouselView"
+        android:layout_marginTop="5dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/main_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/ic_menu_search"
+        android:contentDescription="@string/filter_date"
+        android:layout_margin="16dp" />
+
+
+</RelativeLayout>

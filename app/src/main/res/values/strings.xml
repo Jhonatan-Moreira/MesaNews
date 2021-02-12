@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Mesa News</string>
+
+
+    <!--    Register-->
+    <string name="activity_name_register">Cadastro</string>
+    <string name="register_name">Nome</string>
+    <string name="register_email">E-mail</string>
+    <string name="register_password">Senha</string>
+    <string name="register_repassword">Confirmar Senha</string>
+    <string name="register_create_account">Criar Conta</string>
+
+    <!--    Login-->
+    <string name="login_email">E-mail</string>
+    <string name="login_password">Senha</string>
+    <string name="login_register"><u>Cadastre-se</u></string>
+    <string name="login_dologin">Entrar</string>
+
+    <!--    Filter-->
+    <string name="filter_title">Filtro</string>
+    <string name="filter_filterper">Filtrar por:</string>
+    <string name="filter_date">Data</string>
+    <string name="filter_favorite">Favoritos</string>
+    <string name="filter_search">Pesquisar por título</string>
+    <string name="filter_blank_search">Digite algum texto</string>
+
+    <!--    Toast-->
+    <string name="toast_all_params">Complete os campos corretamente!</string>
+    <string name="toast_login_fail">E-mail ou senha incorretos!</string>
+
+    <!--    WebView-->
+    <string name="webview_title">Notícias</string>
+
+    <!--    Main-->
+    <string name="main_reload">Notícias Carregadas!</string>
+
+
+    <!--    Facebook-->
+    <string name="facebook_app_id">2508128922828174</string>
+    <string name="fb_login_protocol_scheme">fb2508128922828174</string>
+
+
+</resources>

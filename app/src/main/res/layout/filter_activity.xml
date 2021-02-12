@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.Filter">
+
+    <TextView
+        android:id="@+id/filter_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/filter_filterper"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+<LinearLayout
+    android:id="@+id/filter_buttons"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/filter_textview"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/filter_button_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:text="@string/filter_date"/>
+
+    <Button
+        android:id="@+id/filter_button_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:text="@string/filter_favorite"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/filter_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filter_buttons"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+       <EditText
+           android:id="@+id/filter_textview_search"
+           android:layout_width="200dp"
+           android:layout_height="40dp"
+           android:layout_gravity="center_vertical"
+           android:layout_marginLeft="10dp"
+           android:hint="@string/filter_search"/>
+
+        <ImageButton
+            android:id="@+id/filter_button_search"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@android:drawable/ic_menu_search"
+            android:background="@color/purple_500"
+            android:text="@string/filter_favorite"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/filter_recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/filter_search"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

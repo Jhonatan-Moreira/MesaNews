@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".view.Register">
+
+
+    <LinearLayout
+        android:id="@+id/register_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/login_img_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/register_name"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edittext_round"
+            android:hint="@string/register_name"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/register_email"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edittext_round"
+            android:gravity="center"
+            android:hint="@string/register_email"
+            android:textSize="14dp"
+            android:inputType="textWebEmailAddress" />
+
+        <EditText
+            android:id="@+id/register_password"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edittext_round"
+            android:gravity="center"
+            android:hint="@string/register_password"
+            android:textSize="14dp"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/register_repassword"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/edittext_round"
+            android:gravity="center"
+            android:hint="@string/register_repassword"
+            android:textSize="14dp"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/register_signin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/register_create_account" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/register_progressbar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:layout_below="@+id/register_linear"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>

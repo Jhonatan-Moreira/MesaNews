@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "323036059936",
+    "project_id": "mesanews-dce16",
+    "storage_bucket": "mesanews-dce16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323036059936:android:ae10ccfd9590d6cdaadf45",
+        "android_client_info": {
+          "package_name": "com.jmsoftwares.mesanews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323036059936-5shmnim14c406qcschjfl8j3b4mnopmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jmsoftwares.mesanews",
+            "certificate_hash": "90bb3c650dd2b382988114b4a87681507db89501"
+          }
+        },
+        {
+          "client_id": "323036059936-k24454th6r6dbdq0eutmk3p4dee57r62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXkX9CyKSS-Dc549LzQL3gDg8if5aTi-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323036059936-k24454th6r6dbdq0eutmk3p4dee57r62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
