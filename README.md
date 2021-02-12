@@ -3,6 +3,8 @@ Projeto realizado para o desafio Mesa News - APP
 
 Mesa News - APP
 
+https://im4.ezgif.com/tmp/ezgif-4-ee545326548d.gif
+
 Requisitos mínimos:
 1) Tela de Login
 a) O usuário poderá entrar com:
