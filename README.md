@@ -3,7 +3,10 @@ Projeto realizado para o desafio Mesa News - APP
 
 Mesa News - APP
 
-![](name-of-template.gif)
+<img src="https://github.com/Jhonatan-Moreira/MesaNews/blob/main/template.gif.gif?raw=true" width="400" height="900" />
+
+
+
 
 Requisitos mínimos:
 1) Tela de Login
